@@ -60,7 +60,7 @@ function App() {
           toggleMode={toggleMode}
         />
 
-        <Alert alert={alert} />
+        <Alert alert={alert} setAlert={setAlert} />
         <div className="container my-3" mode={mode}>
           <Routes>
             <Route path="/about" element={<About mode={mode} />} />
